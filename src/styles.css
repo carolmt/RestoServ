@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: #fff8ec;
+}
+
+.tarjeta{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:420px;
+    border: 2px solid rgb(250, 50, 0);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: "Courier New", Courier, monospace ;
+}
+.tituloTarjeta{
+    font-size: 30px;
+}
