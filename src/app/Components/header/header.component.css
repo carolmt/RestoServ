@@ -1,0 +1,18 @@
+.html{
+    background-color: #f8aa40;
+}
+.container {
+    background-color: #f8aa40;
+    display: flex;
+    flex-grow: 1; /* Hace que el contenedor ocupe todo el ancho disponible */
+    flex-basis: 0; /* Establece la base del ancho en 0 para permitir que se expanda */
+   }
+.titulo_nav {
+    text-align: center;
+}
+.barra {
+    display: flex;
+    align-items: center;
+    background-color: #f8aa40;
+  padding: 30px;
+}
